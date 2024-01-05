@@ -1,8 +1,12 @@
 from dataExtractor import extract_data
 from cgpaCalculator import calc_cgpa
 
-rollNumber = input("Enter your roll Number: ")
+from PIL import Image
+from io import BytesIO
+import base64
 
+    
+rollNumber = input("Enter your roll Number: ")
 name = extract_data(rollNumber)
 table, cgpa, totalCredits, gradedCredits = calc_cgpa()
 

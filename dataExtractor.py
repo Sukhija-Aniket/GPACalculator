@@ -1,8 +1,20 @@
 import requests
 import json, os
 from html_to_json import convert
+from PIL import Image
+from io import BytesIO
+import base64
 
 
+def get_image(image_str):
+    output_file_path = os.path.dirname(__file__) + "/response.png"
+    
+    image_data = base64.b64decode(image_str)
+    # Create an image object
+    image = Image.open(BytesIO(image_data))
+
+    # Save the image to a file (optional)
+    image.save(output_file_path)
 
 def extract_data(rollNumber):
     
@@ -34,6 +46,8 @@ def extract_data(rollNumber):
             json.dump(json_data, json_file, indent=2)
         print("JSON data saved to response.json")
         
+        image_str = json_data["newdataset"][0].get("table17",[{}])[0].get("photocontent", [{}])[0].get("_value", "")
+        get_image(image_str)
         return json_data["newdataset"][0].get("table2",[{}])[0].get("firstname",[{}])[0].get("_value", None)
     else:
         # Print an error message
