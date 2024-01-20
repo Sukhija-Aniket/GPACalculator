@@ -48,7 +48,9 @@ def extract_data(rollNumber):
         
         image_str = json_data["newdataset"][0].get("table17",[{}])[0].get("photocontent", [{}])[0].get("_value", "")
         get_image(image_str)
-        return json_data["newdataset"][0].get("table2",[{}])[0].get("firstname",[{}])[0].get("_value", None)
+        name = json_data["newdataset"][0].get("table2",[{}])[0].get("firstname",[{}])[0].get("_value", None)
+        fa = json_data["newdataset"][0].get("table2",[{}])[0].get("facultyadvisor", [{}])[0].get("_value",None)
+        return name, fa
     else:
         # Print an error message
         print(f"Error: {response.status_code} - {response.text}")

@@ -1,0 +1,300 @@
+{
+    "Courses": [
+        {
+            "Code": "CS303",
+            "Name": "Software Engineering",
+            "Credits": "2-0-2-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS451",
+            "Name": "Computer Graphics and Game Design",
+            "Credits": "2-0-2-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS456",
+            "Name": "Distributed Databases",
+            "Credits": "2-0-2-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS502",
+            "Name": "Compiler Design",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS507",
+            "Name": "Computer Architecture",
+            "Credits": "2-0-2-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS508",
+            "Name": "Introduction to Heterogeneous Computing",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS514",
+            "Name": "Data Structures and Algorithms-II",
+            "Credits": "3-0-2-4",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS522",
+            "Name": "Distributed Algorithms",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS523",
+            "Name": "Verification of Reactive Systems",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS541P",
+            "Name": "IoT Systems and the Cloud",
+            "Credits": "3-0-2-4",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS542",
+            "Name": "Design patterns for scalable systems",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS544",
+            "Name": "Formal Concept Analysis: Theory and Practice",
+            "Credits": "2-0-2-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS545",
+            "Name": "Software Design Pattern",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS546",
+            "Name": "Design of Concurrent Software",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS549",
+            "Name": "Performance analysis of computer networks",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS550",
+            "Name": "Computer Graphics and Geometric Design",
+            "Credits": "2-0-2-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS561",
+            "Name": "Map Reduce and Big Data",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS562",
+            "Name": "Artificial Intelligence",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS563",
+            "Name": "Scalable Data Science",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS606",
+            "Name": "Computational Modeling of Social Systems",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS609",
+            "Name": "Speech Processing",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS611",
+            "Name": "Program Analysis",
+            "Credits": "3-1-0-4",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS660",
+            "Name": "Data Mining for Decision Making",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS662",
+            "Name": "Mobile Virtual Reality and Artificial Intelligence",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS669",
+            "Name": "Pattern Recognition",
+            "Credits": "3-1-0-4",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS670",
+            "Name": "Kernel Methods for Pattern Recognition",
+            "Credits": "4-0-0-4",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "CS671",
+            "Name": "Deep Learning and Applications",
+            "Credits": "3-0-1-4",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "DS201",
+            "Name": "Data handling and visualization",
+            "Credits": "2-0-2-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "DS301",
+            "Name": "Mathematical Foundation of Data Science",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "DS303",
+            "Name": "Statistical Foundations of Data Science",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "DS401",
+            "Name": "Optimization for Data Science",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "DS403",
+            "Name": "Introduction to Statistical Learning",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "DS404",
+            "Name": "Information Security and Privacy",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "EE511",
+            "Name": "Computer Vision",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "EE522",
+            "Name": "Matrix Theory for Engineers",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "EE530",
+            "Name": "Applied Optimization",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        },
+        {
+            "Code": "EE534",
+            "Name": "Probability and Random Processes",
+            "Credits": "3-0-0-3",
+            "Branches": [
+                "CSE"
+            ]
+        }
+    ]
+}
