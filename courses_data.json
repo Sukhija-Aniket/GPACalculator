@@ -295,6 +295,14 @@
             "Branches": [
                 "CSE"
             ]
+        },
+        {
+            "Code": "MA515",
+            "Name": "Applied Mathematical Programming",
+            "Credits": "3-1-0-4",
+            "Branches": [
+                "CSE"
+            ]
         }
     ]
 }

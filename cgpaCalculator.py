@@ -4,6 +4,8 @@ from prettytable import PrettyTable
 def match(a, b):
     a = ''.join(x for x in a if x.isalnum())
     b = ''.join(x for x in b if x.isalnum())
+    a = a[0:5]
+    b = b[0:5]
     return a == b
 
 def check(branch, courseno, courses_data):
